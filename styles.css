@@ -1,0 +1,58 @@
+.column {
+  float: left;
+  width: 50%;
+}
+.column-25 {
+  float: left;
+  width: 25%;
+}
+
+.bordered {
+  border: 2px solid grey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-button {
+  margin: 20px;
+  padding: 10px;
+}
+
+.profiles {
+  margin: 20px;
+  padding: 10px;
+}
+
+.profile-picture {
+  margin: 20px;
+  padding: 10px;
+}
+.contact {
+  margin: 20px;
+  padding: 10px;
+}
+
+.interests {
+  margin: 20px;
+  padding: 10px;
+}
+
+.about-me {
+  margin: 20px;
+  padding: 10px;
+}
+
+.friends-header {
+  margin: 20px;
+  padding: 10px;
+}
+
+.friends {
+  margin: 20px;
+  padding: 10px;
+}
